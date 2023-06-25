@@ -22,3 +22,14 @@ const Component = () => {
 }
 
 ```
+Valid properties of the component:
+
+| Name                                 |  Type  | Default | Description                                                                                                                                                                                                                                                                                                                                                            |
+| :----------------------------------- | :----: | :-----: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **value**<br>*required*             | string |    -    | The string on which you want to add expandable(See More and See Less). |
+| **seeMore**<br>*required*   | string, boolean, integer |    -    | It is the component state that will handle whether to show expanded content or partial content |
+| **setSeeMore**<br>*required*   | function |    -    | It is the function that will trigger when you will either click See More or See Less. You may pass the state function in it or set the state in it|
+| **length**<br>*optional*      | integer |    40    | The breakpoint length after which you want to add See More. Upon clicking see more whole text will show up.|
+| **id**<br>*optional*       | string |    -    | This is a unique identifier for your component. It is helpful if you want to render this component across all rows in the table. So, content will expand only on that specific row on which user click see more.|
+| **className**<br>*optional* | string |    -    | If you want to modify the properties of the expandable content you may pass any class in it |
+| **onHoverEnabled**<br>*optional*        | boolean |    false    | There is an option of expanding content when user hover over see more. By default hover effect is disabled but you may use it if needed |
