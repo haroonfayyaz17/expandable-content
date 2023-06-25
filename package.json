@@ -10,7 +10,26 @@
     "expandable content",
     "see more",
     "see less",
-    "collapsible"
+    "collapsible",
+    "Expandable",
+    "Toggle",
+    "Show More",
+    "Show Less",
+    "Folding",
+    "Panel",
+    "Accordion",
+    "Dynamic",
+    "Content Display",
+    "Expand",
+    "Collapse",
+    "Hide",
+    "Reveal",
+    "Component",
+    "UI",
+    "User-friendly",
+    "Interaction",
+    "Web Development",
+    "Frontend"
   ],
   "babel": {
     "presets": [
