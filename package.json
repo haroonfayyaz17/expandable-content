@@ -10,10 +10,6 @@
       "@babel/preset-react"
     ]
   },
-  "files": [
-    "dist",
-    "README.md"
-  ],
   "repository": {
     "type": "git",
     "url": "git@github.com:haroonfayyaz17/expandable-content.git"
