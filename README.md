@@ -11,10 +11,14 @@ The Collapsible Content component is highly customizable, allowing you to adapt 
 Whether you are building a blog, an e-commerce platform, or any application where managing large content blocks is crucial, the Collapsible Content component provides an elegant solution. It empowers users to explore information at their own pace while maintaining a clean and organized interface, improving the overall user experience and engagement.
 
 ## How to use it
+
+```js
 import React, { useState } from "React";
 import Expandable from "expandable-content";
 
 const Component = () => {
     const [seeMore, setSeeMore] = useState();
-    <Expandable id="" value="How are you?" length={23} seeMore={seeMore} setSeeMore={setSeeMore}  />
+    <Expandable seeMore={seeMore} setSeeMore={setSeeMore} value="How are your?" length={2} />
 }
+
+```
